@@ -42,7 +42,7 @@ function Todo({ todo, handleRemoveTodo, handleToggleTodo }: Props) {
           <IconButton aria-label='delete' onClick={() => onRemove(todo.id)}>
             <DeleteOutline />
           </IconButton>
-          <IconButton aria-label='edit' onClick={handleToggle}>
+          <IconButton aria-label='Edit' onClick={handleToggle}>
             <EditOutlined />
           </IconButton>
         </Fragment>
